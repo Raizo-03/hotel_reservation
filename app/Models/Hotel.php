@@ -10,7 +10,7 @@ class Hotel extends Model
     use HasFactory;
 
     protected $table = 'hotels'; // (optional if table name matches model name)
-
+    public $timestamps = false;
     protected $fillable = [
         'name',
         'image',
