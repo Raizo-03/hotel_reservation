@@ -17,8 +17,8 @@
             <div id="links">
                 <ul>
                     <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="#">Reservation</a></li>
-                    <li><a href="#">Company Profile</a></li>
+                    <li><a href="{{ route('reservation') }}">Reservation</a></li>
+                    <li><a href="{{ route('company') }}">Company Profile</a></li>
                     <li><a href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </div>
