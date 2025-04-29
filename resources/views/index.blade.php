@@ -13,8 +13,9 @@
             <ul>    
                <li><a href="{{ route('home') }}">Home</a></li>
                 {{-- 
-                <li><a href="{{ route('reservation') }}">Reservation</a></li>
-                <li><a href="{{ route('company') }}">Company Profile</a></li>--}}
+                <li><a href="{{ route('reservation') }}">Reservation</a></li>--}}
+
+                <li><a href="{{ route('company') }}">Company Profile</a></li>
                 
                 <li><a href="{{ route('contact') }}">Contact</a></li> 
             </ul>
@@ -29,9 +30,9 @@
         </h1>
         
         <h3>Book hotels, Flights, and other reservation.</h3>
-        {{-- <form action="{{ route('company') }}" method="get">
+        <form action="{{ route('company') }}" method="get">
             <input type="submit" value="ABOUT US">
-        </form> --}}
+        </form>
     </div>
 
     <div class="popular">
