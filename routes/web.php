@@ -28,7 +28,7 @@ Route::get('/reservation', [ReservationController::class, 'index'])->name('reser
 
 // For submitting the reservation form (POST request)
 Route::post('/reservation', [ReservationController::class, 'store'])->name('reservation.store');
-
+Route::get('/billing', [ReservationController::class, 'showBilling'])->name('billing.show');
 
 //Admin side routers
 
