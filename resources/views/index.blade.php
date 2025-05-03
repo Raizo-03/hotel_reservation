@@ -18,6 +18,8 @@
                 <li><a href="{{ route('company') }}">Company Profile</a></li>
                 
                 <li><a href="{{ route('contact') }}">Contact</a></li> 
+
+                <li><a href="{{ route('admin.dashboard') }}">Admin</a></li> 
             </ul>
         </div>
     </div>
