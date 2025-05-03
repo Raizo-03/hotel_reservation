@@ -190,7 +190,7 @@
             </div>
         </div>
     @endif
-<div id="reservationModal" class="modal" style="display: none;">
+<div id="reservationModal" class="modal">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -201,14 +201,38 @@
             </div>
             <div class="modal-body">
                 <div class="reservation-details">
-                    <p><strong>Name:</strong> <span id="modal-name"></span></p>
-                    <p><strong>Contact Number:</strong> <span id="modal-number"></span></p>
-                    <p><strong>Start Date:</strong> <span id="modal-start"></span></p>
-                    <p><strong>End Date:</strong> <span id="modal-end"></span></p>
-                    <p><strong>Room Type:</strong> <span id="modal-roomtype"></span></p>
-                    <p><strong>Room Capacity:</strong> <span id="modal-roomcap"></span></p>
-                    <p><strong>Payment Type:</strong> <span id="modal-payment"></span></p>
-                    <p><strong>Total Bill:</strong> ₱<span id="modal-total"></span></p>
+                    <p>
+                        <span><strong>Name:</strong></span>
+                        <span id="modal-name">sdasa</span>
+                    </p>
+                    <p>
+                        <span><strong>Contact Number:</strong></span>
+                        <span id="modal-number">12321</span>
+                    </p>
+                    <p>
+                        <span><strong>Start Date:</strong></span>
+                        <span id="modal-start">Apr 3, 2025</span>
+                    </p>
+                    <p>
+                        <span><strong>End Date:</strong></span>
+                        <span id="modal-end">Apr 4, 2025</span>
+                    </p>
+                    <p>
+                        <span><strong>Room Type:</strong></span>
+                        <span id="modal-roomtype">Suite</span>
+                    </p>
+                    <p>
+                        <span><strong>Room Capacity:</strong></span>
+                        <span id="modal-roomcap">Family</span>
+                    </p>
+                    <p>
+                        <span><strong>Payment Type:</strong></span>
+                        <span id="modal-payment">Cash</span>
+                    </p>
+                    <p>
+                        <span><strong>Total Bill:</strong></span>
+                        <span>₱<span id="modal-total">1200.00</span></span>
+                    </p>
                 </div>
             </div>
             <div class="modal-footer">
@@ -217,7 +241,6 @@
         </div>
     </div>
 </div>
-
 </div>
 
 
